@@ -1,24 +1,23 @@
 <!DOCTYPE html>
-
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Mon PDF</title>
+  <title>Mon Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    iframe {
+      width: 100%;
+      height: 100vh;
+      border: none;
+    }
+  </style>
 </head>
 <body>
-  <h1>Mon document</h1>
 
-  <p>
-    <a href="Portfolio_QUENETTE Clara.pdf" target="_blank">
-      📄 Télécharger le PDF
-    </a>
-  </p>
-
-  <iframe 
-    src="mon-fichier.pdf" 
-    width="100%" 
-    height="800px">
-  </iframe>
+  <iframe src="Portfolio.pdf"></iframe>
 
 </body>
 </html>
